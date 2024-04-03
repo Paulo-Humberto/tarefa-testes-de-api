@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "e0a30195-4b77-4cea-97e1-a0c3488e61cd",
+		"name": "poke-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33730966"
+	},
+	"item": [
+		{
+			"name": "lista pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon-species/aegislash",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon-species",
+						"aegislash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista pokemon 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/ditto",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
